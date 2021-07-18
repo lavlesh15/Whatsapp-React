@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+.login
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.login_container
+{
+   padding: 100px; 
+   text-align: center;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.login_container > img
+{
+    object-fit: contain;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+.login_container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: dodgerblue !important;
+    color: white;
+    box-shadow: -1px -1px 5px rgb(175, 173, 173);
+    box-shadow: 1px 1px 5px rgb(175, 173, 173);
+}
+
+.foot
+{
+    /* background-color: white; */
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgb(78, 75, 75);
+}
